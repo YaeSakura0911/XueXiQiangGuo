@@ -1,0 +1,101 @@
+{
+    "recommend": [
+        {
+            "image": "images/recommend/01.png",
+            "title": "全面建成小康社会的历史意义和当代启示",
+            "subtitle": "红旗文稿"
+        },
+        {
+            "image": "images/recommend/02.png",
+            "title": "坚持系统观念 谋划和推动高质量发展",
+            "subtitle": "甘肃日报"
+        },
+        {
+            "image": "images/recommend/03.png",
+            "title": "全力提升科技创新要素整合力",
+            "subtitle": "经济日报"
+        },
+        {
+            "image": "images/recommend/04.png",
+            "title": "完善覆盖全民的社会保障体系",
+            "subtitle": "学习时报"
+        },
+        {
+            "image": "images/recommend/05.png",
+            "title": "精准扶贫：全面建成小康社会的制胜法宝",
+            "subtitle": "学习时报"
+        }
+    ],
+    "comment": [
+        {
+            "image": "images/头像.png",
+            "user": "陈志伟",
+            "content": "产业扶贫脱困是一个长久之计。",
+            "time": "11小时前",
+            "like": "1.5万"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "常青",
+            "content": "人民生活水平提高了，大赞",
+            "time": "12小时前",
+            "like": "1.1万"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "田瑞祥",
+            "content": "祖国繁荣昌盛，人民安居乐业",
+            "time": "12小时前",
+            "like": "9464"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "蒋冬萍",
+            "content": "经济发展，文明进步，决胜全面建成小康社会",
+            "time": "12小时前",
+            "like": "7607"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "王海光",
+            "content": "全面小康，全民脱贫",
+            "time": "12小时前",
+            "like": "5646"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "卞瑜静",
+            "content": "美好生活！",
+            "time": "12小时前",
+            "like": "4280"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "张卫杰",
+            "content": "让人民群众都过上幸福生活",
+            "time": "12小时前",
+            "like": "3615"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "李长玺",
+            "content": "同心协力，共同维护社区治理服务平台",
+            "time": "12小时前",
+            "like": "3265"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "周佳晴",
+            "content": "每家每户小康社会生活早日实现",
+            "time": "12小时前",
+            "like": "3002"
+        },
+        {
+            "image": "images/头像.png",
+            "user": "王成成",
+            "content": "全面战胜小康，取得决定性成绩",
+            "time": "12小时前",
+            "like": "2794"
+        }
+    ]
+}

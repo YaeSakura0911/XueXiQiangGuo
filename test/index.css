@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,li,a,p,h1,h2,h3,h4,h5,h6,form,body {
+    padding: 0;
+    margin: 0;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 320px;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color:  rgb(228,36,23);
+    line-height: 48px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 48px;
+    height: 24px;
+    border: none;
+    display: block;
+    background-color: white;
+}
+
+header form input {
+    height: 24px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+
+header div {
+    display: flex;
+}
+
+header div p {
+    color: white;
+    font-weight: bold;
+}
+
+header div a {
+    color: white;
+    font-weight: bold;
+}
+
+/*TODO:选项卡样式*/
+.tab {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff1f0;
+    position: sticky;
+    top: 48px;
+    padding: 0 8px;
+    line-height: 48px;
+}
+
+.tab-item {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 80%;
+}
+
+.tab-item::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-link {
+    display: block;
+    height: 100%;
+    color: #6a7076;
+    margin-right: 8px;
+    padding: 0 8px;
+}
+
+.tab-item .active {
+    color: #e42417;
+    border-bottom: 2px solid #e42417;
+}
+
+.tab-menu {
+    display: flex;
+}
+
+/*TODO:子选项卡样式*/
+.sub-tab {
+    /*height: 48px;*/
+    line-height: 48px;
+    padding-left: 8px;
+    position: sticky;
+    top: 96px;
+    background-color: #ffffff;
+    /*display: none;*/
+}
+
+.sub-tab .active {
+    background-color: #e42417;
+    color: #ffffff;
+}
+
+.sub-tab-item {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.sub-tab-item::-webkit-scrollbar {
+    display: none;
+}
+
+.sub-tab-link {
+    background-color: #f9f9f9;
+    padding: 4px;
+    color: #888c8f;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+/*TODO: 下拉刷新样式*/
+.refresh {
+    height: 0;
+    line-height: 48px;
+    text-align: center;
+    display: none;
+}
+
+.refresh-info {
+    padding: 4px 8px;
+    background-color: #f9f9f9;
+    color: #687178;
+    border-radius: 50px;
+}
+
+/*TODO:*/
+.container {
+    margin-bottom: 32px;
+}
+
+.tab-view {
+    display: none;
+}
+
+.show {
+    width: 100%;
+    display: block;
+}
+
+.recommend-card {
+    padding: 1rem;
+}
+
+.recommend-card-title {
+
+}
+
+.recommend-card-body {
+    margin: 14px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-card-subtitle {
+    font-size: small;
+    color: #b2b3b5;
+}
+
+/*TODO:导航栏样式*/
+.nav {
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #d8d8d8;
+    z-index: 1;
+}
+
+.nav-link {
+    color: rgb(160,160,160);
+    font-size: small;
+}
+
+.swiper-container{
+    height: 48px;
+}
+.swiper-wrapper {
+    flex-direction: row;
+}
